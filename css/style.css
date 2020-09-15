@@ -1,0 +1,247 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px; 
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/*******************   Header-section Start     *********************/
+/********************************************************************/
+
+.header-section{
+	width: 100%;
+}
+
+/********  Nav1 part start  *********/
+
+.header-section .nav1{
+	width: 100%;
+	padding: 10px 0px;
+	background-color: #f5f7fa;
+}
+
+.header-section .nav1 .info-inner{
+	display: block;
+	margin: 0px;
+	color: #506a85;
+}
+
+.header-section .nav1 .info-inner li{
+	display: inline-block;
+	list-style: none;
+}
+
+.header-section .nav1 .info-inner li a{
+	font-size: 14px;
+	font-weight: 500;
+	color: #506a85;
+	margin-right: 18px;
+	text-decoration: none;
+}
+
+.header-section .nav1 .info-inner li a .fa{
+	margin-right: 8px;
+}
+
+.header-section .nav1 .info-inner li a .fa:focus,
+.header-section .nav1 .info-inner li a .fa:hover{
+	color: #00bc9c;
+}
+
+
+.header-section .nav1 .socialicon-inner{
+	display: block;
+	margin: 0px;
+	text-align: right;
+	
+}
+
+.header-section .nav1 .socialicon-inner li{
+	display: inline-block;
+	list-style: none;
+
+}
+
+.header-section .nav1 .socialicon-inner li a{
+	font-size: 14px;
+	color: #506a85;
+	margin-left: 18px;
+}
+
+.header-section .nav1 .socialicon-inner .fa:hover{
+	color: #00bc9c;
+}
+
+/********  Nav1 part end  *********/
+
+/********  Nav2 part start  *********/
+.header-section .bg-light{
+	background: #ffffff !important; 
+	padding: 30px 0px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	 color: #506a85;
+	 font-weight: 700;
+}
+
+.header-section .navbar-expand-lg .navbar-nav {
+    margin-left: 40px;
+}
+
+.header-section .right-search .fa{
+	color: #506a85;
+	text-decoration: none;
+
+}
+
+.header-section .right-search .fa:focus,
+.header-section .right-search .fa:hover{
+	color: #00bc9c;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:focus,
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: #00bc9c;
+}
+
+/********  Nav2 part start  *********/
+
+/*******************   Header-section End     *********************/
+/******************************************************************/
+
+/*******************   Slider-section Start     ********************/
+/******************************************************************/
+
+.slider{
+	width: 100%;
+}
+
+.slider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.slider .carousel-caption h2{
+    font-size: 54px;
+    line-height: 64px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.slider .carousel-caption p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #a3b1bf;
+    font-weight: 400;
+}
+
+.slider .carousel-caption .btn-info{
+	font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 13px 45px;
+    margin-top: 35px;
+    border-radius: 2px;
+    border: 1px solid #00bc9c;
+    background:#00bc9c;
+    color: #fff; 
+    transition:2s; 
+}
+
+.slider .carousel-caption .btn-info:focus,
+.slider .carousel-caption .btn-info:hover{
+	background: transparent;
+	 border: 1px solid #00bc9c;
+	 color: #00bc9c;
+}
+
+/*******************   Slider-section End     *********************/
+/******************************************************************/
+
+/*******************   Who_we_are-section Start     ***************/
+/******************************************************************/
+
+.who_we_are{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.who_we_are .title{
+	text-align: center;
+	width: 100%;
+}
+
+.who_we_are .title h2{
+	font-size: 44px;
+    line-height: 54px;
+    color: #506a85;
+    font-weight: 600;
+    text-transform: capitalize; 
+    margin-bottom: 20px; 
+}
+
+.who_we_are .title p{
+	color: #506a85;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.who_we_are .media{
+	margin-top: 40px;
+}
+
+.who_we_are img {
+    padding-top: 7px;
+}
+
+.who_we_are .media-body {
+    padding: 0px 10px;
+}
+
+.who_we_are .media .media-body h5{
+	font-size: 24px;
+    line-height: 34px;
+    color: #506a85;
+    font-weight: 600;
+    text-transform: capitalize; 
+}
+
+.who_we_are .media .media-body p{
+	color: #506a85;
+	font-size: 12px;
+    line-height: 22px;
+}
+
+/*******************   Who_we_are-section End     ****************/
+/*****************************************************************/
