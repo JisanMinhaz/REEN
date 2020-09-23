@@ -87,6 +87,7 @@ a, a:hover{
 /********  Nav1 part end  *********/
 
 /********  Nav2 part start  *********/
+
 .header-section .bg-light{
 	background: #ffffff !important; 
 	padding: 30px 0px;
@@ -125,7 +126,7 @@ a, a:hover{
     color: #00bc9c;
 }
 
-/********  Nav2 part start  *********/
+/********  Nav2 part end  *********/
 
 /*******************   Header-section End     *********************/
 /******************************************************************/
@@ -181,8 +182,8 @@ a, a:hover{
 .slider .carousel-caption .btn-info:focus,
 .slider .carousel-caption .btn-info:hover{
 	background: transparent;
-	 border: 1px solid #00bc9c;
-	 color: #00bc9c;
+	border: 1px solid #00bc9c;
+	color: #00bc9c;
 }
 
 /*******************   Slider-section End     *********************/
@@ -214,7 +215,7 @@ a, a:hover{
 	color: #506a85;
 	font-size: 14px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .who_we_are .media{
@@ -241,7 +242,305 @@ a, a:hover{
 	color: #506a85;
 	font-size: 12px;
     line-height: 22px;
+     font-weight: 500;
 }
 
 /*******************   Who_we_are-section End     ****************/
+/*****************************************************************/
+
+/*******************   Works-section Start     ****************/
+/*****************************************************************/
+
+.works{
+	width: 100%;
+	padding: 80px 0px;
+	background:#f2f5f7; 
+}
+.works .title{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 40px;
+}
+.works .title h2{
+	font-size: 44px;
+    line-height: 54px;
+    color: #506a85;
+    font-weight: 600;
+    text-transform: capitalize; 
+    margin-bottom: 20px; 
+}
+
+.works .title p{
+	color: #506a85;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing:.5px;
+}
+
+.works .card{
+	text-align: center;
+	border-radius: 0px;
+}
+.works .card .card-img-top{
+	border-radius: 0px;
+}
+.work .card .card-img-bottom{
+	border-radius: 0px;
+}
+.works .card .card-body .card-title{
+	font-size: 16px;
+    line-height: 26px;
+    color: #506a85;
+    font-weight: 600;
+    text-transform: capitalize; 
+    margin-bottom: 3px;
+}
+.works .card .card-body .card-text{
+	color: #506a85;
+	font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.works .owl-carousel{
+	margin-top: 45px;
+}
+.works .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 25px;
+}
+
+.works .owl-theme .owl-dots .owl-dot.active span, 
+.works .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c;
+}
+/*******************   Works-section End     ****************/
+/*****************************************************************/
+
+/*******************  Want-to-works-section Start     ****************/
+/*****************************************************************/
+
+.want-to-work{
+	width: 100%;
+	padding: 90px 0px;
+}
+
+.want-to-work .wants_works{
+	text-align: center;
+}
+
+.want-to-work .wants_works h2{
+	font-size: 44px;
+    line-height: 54px;
+    color: #506a85;
+    font-weight: 600;
+    text-transform: capitalize; 
+    margin-bottom: 20px; 
+}
+
+.want-to-work .wants_works p{
+	color: #506a85;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.want-to-work .wants_works .btn-info {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #00bc9c;
+    background: #00bc9c;
+    color: #fff;
+    transition: 2s;
+}
+.want-to-work .wants_works .btn-info:focus,
+.want-to-work .wants_works .btn-info:hover{
+	background: transparent;
+	border: 1px solid #00bc9c;
+	color: #00bc9c;
+}
+
+/*******************  Want-to-works-section End    ****************/
+/*****************************************************************/
+
+/*******************  Footer-section Start    ****************/
+/*****************************************************************/
+
+.footer-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2f4052;
+}
+
+              /******** widget 1 part start  *********/
+
+.footer-section .widget{
+	width: 100%;
+}
+.footer-section .widget h4{
+	font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+}
+.footer-section .widget p{
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 16px 0px; 
+    color: #92a0ae;
+}
+.footer-section .widget .link {
+	font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #92a0ae;
+}
+
+.footer-section .widget .link:hover{
+	color:#00bc9c;
+	text-decoration: none;
+}
+
+.footer-section .widget .link .fa{
+	margin: 0px 10px;
+}
+
+                 /******** widget 1 part end  *********/
+
+				/******** widget 2 part start  *********/
+
+.footer-section .widget .no-mar{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.footer-section .widget .card-img, .footer-section .widget .card-img-top{
+	border-radius: 0px;
+}
+
+.footer-section .widget .no-mar .card-group{
+	margin-bottom: 5px;
+}
+
+.footer-section .widget .no-mar .card-group .card{
+	border-radius: 0px;
+	border: none;
+	margin: 0px 2px;
+}
+
+               /******** widget 2 part end  *********/
+
+              /******** widget 3 part start  *********/
+
+.footer-section .widget .widget-info{
+	margin: 0px;
+}
+.footer-section .widget .widget-info li{
+	list-style: none;
+}
+.footer-section .widget .widget-info li a{
+	text-decoration: none;
+	color: #92a0ae;
+}
+.footer-section .widget .widget-info li a .fa{
+	margin-right: 6px;
+}
+.footer-section .widget .widget-info .fa:focus,
+.footer-section .widget .widget-info .fa:hover{
+	color: #00bc9c;
+}
+
+              /******** widget 3 part end  *********/
+
+             /******** widget 4 part start  *********/
+
+.footer-section .widget .form .mx-sm-3{
+	margin-left: 0px !important;
+}
+
+.footer-section .widget .form .form-control{
+    width: 100%;
+    background: #4e5c6c;
+    border-radius: 2px;
+    font-size: 13px;
+    padding: 18.5px 6px;
+    border: transparent;
+
+} 	
+
+.footer-section .widget .form .btn-primary {
+    color: #fff;
+    background-color: #00bc9c;
+    border-color: #00bc9c;
+    position: absolute;
+    right: 12%;
+    bottom: 31%;
+    padding: 7px 14px;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer-section .widget .form .btn-primary:focus,
+.footer-section .widget .form .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #00bc9c;
+	color: #00bc9c;
+}  
+
+            /******** widget 4 part end  *********/
+
+.last-footer-section{
+	width: 100%;
+	padding: 8px 0px;
+	background:#283645; 
+}
+.last-footer-section p{
+	color: #92a0ae;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 15px;
+
+}
+.last-footer-section .last-nav{
+	width: 100%;
+	text-align: right;
+	margin-top: 15px;
+
+}
+
+.last-footer-section .last-nav ul{
+	display: block;
+	color: #92a0ae;
+
+}
+.last-footer-section .last-nav ul li{
+	display: inline-block;
+	list-style: none;
+	color: #92a0ae;
+
+}
+.last-footer-section .last-nav ul li a{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin:0px 8px;
+	color: #92a0ae;
+	text-decoration: none;
+}
+.last-footer-section .last-nav ul li a:focus,
+.last-footer-section .last-nav ul li a:hover{
+	color: #00bc9c;
+}
+
+
+/*******************  Footer-section End    ****************/
 /*****************************************************************/
